@@ -35,6 +35,11 @@ It applies **Machine Learning models** such as **Logistic Regression** and **Dec
 
 ---
 
+## 📦 Dataset
+- Loan-Approval-Prediction-Dataset (Kaggle)
+
+---
+
 ## 🛠️ Tech Stack
 - Python 🐍  
 - Pandas, NumPy  
