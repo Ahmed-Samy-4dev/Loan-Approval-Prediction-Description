@@ -46,13 +46,23 @@ It applies **Machine Learning models** such as **Logistic Regression** and **Dec
 
 ## 📂 Project Structure
 loan-approval-prediction/
+
 │── data/
-│   └── loan_approval_dataset.csv       # Original dataset
+
+│     └── loan_approval_dataset.csv       # Original dataset
+
 │
+
 │── notebooks/
-│   └── loan_approval.ipynb  # Jupyter Notebook with full workflow
+
+│     └── loan_approval.ipynb  # Jupyter Notebook with full workflow
+
 │
+
 │── README.md                           # Project documentation
+
 │── requirements.txt                    # Python dependencies
+
 │── .gitignore                          # Ignore unnecessary files
+
 │── LICENSE                             # License file
