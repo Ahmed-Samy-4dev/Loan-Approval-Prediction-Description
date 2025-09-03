@@ -27,11 +27,22 @@ It applies **Machine Learning models** such as **Logistic Regression** and **Dec
 ---
 
 ## 📈 Results
+| Model               | Precision | Recall | F1-score | Cross-val Mean | 
+|---------------------|-----------|--------|----------|----------------| 
+| Logistic Regression | ~0.88     | ~0.91  | ~0.89    | ~0.89          | 
+| SMOTE               | ~0.86     | ~0.94  | ~0.90    | ~0.89          | 
+| Decision Tree       | ~0.99     | ~0.94  | ~0.97    | ~0.97          | 
+
 - Logistic Regression: ✅ good precision, consistent performance.  
 - SMOTE: ⚠️ improved recall but introduced false positives.  
 - Decision Tree: ⭐ best trade-off with higher F1-Score and precision.  
 
 **Final Choice:** Decision Tree Classifier performed best for this dataset.
+
+---
+
+✅ **Business Impact**:  
+Using the Decision Tree, the bank can **minimize false approvals** (protecting against loan defaults) while still granting loans to genuine applicants.  
 
 ---
 
